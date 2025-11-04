@@ -1,12 +1,12 @@
-# **`Bitácora de (Nombre del Proyecto)`**
+# **`Bitácora de (SunAlarm)`**
 
 `Tecnología de los Sistemas de Información - Seminario Avanzado`  
 `Ciclo Lectivo 2025`
 
 ## **`Integrante/s`**
 
-- `Nombre 1`  
-- `Nombre 2`
+- `Eitan Moscovich-`  
+- `Alan Shifman`
 
 
 ---
@@ -14,22 +14,22 @@
 
 ## **`Semana 1`**
 
-**`Fecha:`**
+**`Fecha:30/09/2025`**
 
 **`Actividades Realizadas:`**
 
-- `Actividad 1`  
-- `Actividad 2`
+- `Buscamos información sobre los sensores que vamos a usar.`  
+- `Probamos el sensor LDR para ver cómo mide la luz del ambiente.`
 
 **`Dificultades:`**
 
-- `Dificultad 1`  
-- `Dificultad 2`
+- `Los valores del sensor LDR cambiaban mucho según las sombras.`  
+- `Al principio conectamos mal el reed switch y no funcionaba.`
 
 **`Próximos Pasos:`**
 
-- `Próximo paso 1`  
-- `Próximo paso 2`
+- `Ajustar mejor cuándo el sistema debe saber si es día o noche.`  
+- `Conectar bien el reed switch para detectar la ventana abierta`
 
 
 ---
@@ -37,19 +37,19 @@
 
 ## **`Semana 2`**
 
-**`Fecha:`**
+**`Fecha:21/10/2025`**
 
 **`Actividades Realizadas:`**
 
-- `Actividad 1`  
-- `Actividad 2`
+- `Conectamos el sensor PIR y probamos cómo detecta movimiento.`  
+- `Programamos las reacciones: parpadeo de LEDs y buzzer según lo que pase.`
 
 **`Dificultades:`**
 
-- `Dificultad 1`  
-- `Dificultad 2`
+- `El PIR dio falsas alarmas cuando recién encendía.`  
+- `Los valores de luz cambian mucho según el lugar.`
 
 **`Próximos Pasos:`**
 
-- `Próximo paso 1`  
-- `Próximo paso 2`
+- `Agregar un pequeño tiempo de espera antes de usar el PIR.`  
+- `Probar el sistema en distintos lugares para mejorar la detección de luz.`
