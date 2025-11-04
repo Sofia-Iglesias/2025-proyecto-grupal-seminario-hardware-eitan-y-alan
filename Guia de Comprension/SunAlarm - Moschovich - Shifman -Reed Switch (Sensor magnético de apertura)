@@ -1,0 +1,59 @@
+¿Qué tipo de dispositivo es (sensor o actuador)? Explicá brevemente su función principal.
+ Es un sensor. Detecta si una ventana o puerta está abierta o cerrada mediante un campo magnético.
+
+
+¿Qué tipo de señal utiliza para comunicarse con Arduino?
+ Señal digital.
+
+
+¿Cuál es el rango de valores que puede entregar o recibir el componente?
+ 0 V (circuito cerrado) o 5 V (circuito abierto).
+
+
+¿Qué pines de conexión tiene el componente? Ennumerar y describir su función.
+
+
+Un terminal a GND.
+
+
+El otro terminal a un pin digital de Arduino con INPUT_PULLUP.
+
+
+¿Qué pin o pines de Arduino utilizan para conectarlo? ¿Por qué elegiste esos pines?
+ Pin digital D2, porque permite configurar la entrada con resistencia pull-up interna.
+
+
+Dibujá y explicá brevemente el esquema de conexión del componente con Arduino (incluyendo resistencias si son necesarias).
+ Reed switch entre GND y D2. Se usa pinMode(D2, INPUT_PULLUP) para mantener el pin en HIGH hasta que el imán cierre el circuito y lo lleve a LOW.
+
+
+¿Cuál es el principio de funcionamiento del componente?
+ Tiene dos contactos metálicos dentro de un tubo de vidrio que se cierran o abren al acercar o alejar un imán.
+
+
+¿Utiliza alguna librería particular para programarlo?
+ No, se usa con digitalRead().
+
+
+¿Cómo se interpreta el dato de entrada o salida del componente en el programa?
+ LOW indica que la ventana está cerrada (imán cerca). HIGH indica que está abierta (imán lejos).
+
+
+¿Qué limitaciones o precauciones eléctricas hay que tener en cuenta?
+ No soporta grandes corrientes; solo se debe usar como entrada digital. Evitar golpes porque el tubo de vidrio es frágil.
+
+
+¿Cómo verificarías que el componente funciona correctamente antes de incorporarlo al proyecto final?
+ Probar con un imán y ver si cambia el valor leído en el monitor serie.
+
+
+Simular en Tinkercad e incluir el link de la simulación.
+ (Agregar enlace cuando se realice la simulación).
+
+
+¿Qué valor o lectura esperás obtener en la simulación si el componente funciona correctamente?
+ LOW cuando el imán está cerca (cerrado), HIGH cuando está lejos (abierto).
+
+
+¿Cómo podría fallar el componente o cómo detectarías un mal funcionamiento en el código o en el circuito?
+ Si no cambia de estado al acercar o alejar el imán, puede estar mal conectado o dañado.
