@@ -49,3 +49,4 @@
 - `Indicador fijo de día (LED verde) o noche (LED rojo) sin eventos presentes`  
 - `Combinaciones inteligentes de reacción según contexto`  
 - `Alarma sonora sólo cuando es realmente necesario (durante la noche o apertura crítica)`
+- `Link del tinkercad: https://www.tinkercad.com/things/jnLGQO79YFE-swanky-kieran-kasi/editel`
